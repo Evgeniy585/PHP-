@@ -3,11 +3,11 @@
 namespace HexletBasics\Conditionals\ElseIfStatement;
 
 // BEGIN (write your solution here)
-function whoIsThisHouseToStarks($famaly)
+function whoIsThisHouseToStarks($family)
 {
-    if ($famaly === 'Karstark' || $famaly === 'Tully') {
+    if ($family === 'Karstark' || $family === 'Tully') {
         return 'friend';
-    } elseif ($famaly === 'Lannister' || $famaly === 'Frey') {
+    } elseif ($family === 'Lannister' || $family === 'Frey') {
         return 'enemy';
     } 
     return 'neutral';
