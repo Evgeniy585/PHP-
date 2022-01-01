@@ -11,7 +11,9 @@ function countChars($str, $char)
         if ($str[$i] === $char) {
             $count = $count + 1;
         }
+        
          $i += 1;
+
     }
     return $count;
 }
