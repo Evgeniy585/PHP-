@@ -13,7 +13,6 @@ function countChars($str, $char)
         }
          $i += 1;
     }
-
     return $count;
 }
 // END
